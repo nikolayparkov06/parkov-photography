@@ -31,9 +31,10 @@ export function AnimatedStat({
   const reduceMotion = useReducedMotion();
   const elementRef = useRef<HTMLSpanElement>(null);
   const parsed = parseStatValue(value);
-  const [displayValue, setDisplayValue] = useState(
-    reduceMotion || !parsed || !animate ? value : "0",
-  );
+  // Server HTML always carries the real value, so search engines and
+  // no-JS visitors never see "0". The count-up starts only in the browser.
+  const [displayValue, setDisplayValue] = useState(value);
+  const canAnimate = Boolean(parsed) && animate;
 
   useEffect(() => {
     const element = elementRef.current;
@@ -43,6 +44,8 @@ export function AnimatedStat({
       setDisplayValue(value);
       return;
     }
+
+    setDisplayValue(`${current.prefix}${(0).toFixed(current.decimals)}${current.suffix}`);
 
     let animationFrame = 0;
     let startedAt = 0;
@@ -87,7 +90,8 @@ export function AnimatedStat({
 
   return (
     <span ref={elementRef} className="tabular-nums">
-      {displayValue}
+      <span aria-hidden={canAnimate ? "true" : undefined}>{displayValue}</span>
+      {canAnimate ? <span className="sr-only">{value}</span> : null}
     </span>
   );
 }

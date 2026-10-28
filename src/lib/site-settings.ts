@@ -159,14 +159,30 @@ export function getMapEmbedUrl(settings: SiteSettingsValues) {
     : null;
 }
 
+// WhatsApp, Viber and tel: links need the full international number.
+// A Bulgarian number saved as "0988..." becomes "359988...".
+function toInternationalDigits(phone: string) {
+  const digits = phone.replace(/\D/g, "");
+
+  if (digits.startsWith("00")) {
+    return digits.slice(2);
+  }
+
+  if (digits.startsWith("0")) {
+    return `359${digits.slice(1)}`;
+  }
+
+  return digits;
+}
+
 export function getContactMethods(settings: SiteSettingsValues) {
-  const number = settings.phone.replace(/[^\d+]/g, "");
-  const whatsapp = settings.phone.replace(/\D/g, "");
+  const international = toInternationalDigits(settings.phone);
+  const number = `+${international}`;
 
   return [
     { key: "phone", href: `tel:${number}` },
     { key: "viber", href: `viber://chat?number=${encodeURIComponent(number)}` },
-    { key: "whatsapp", href: `https://wa.me/${whatsapp}` },
+    { key: "whatsapp", href: `https://wa.me/${international}` },
     { key: "email", href: `mailto:${settings.email}` },
   ];
 }
