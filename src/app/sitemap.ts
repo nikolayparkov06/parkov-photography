@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
+import { servicePages } from "@/lib/service-pages";
 import { siteUrl } from "@/lib/site-url";
 
 const pages = [
   { path: "", priority: 1 },
-  { path: "/wedding-photography-sofia", priority: 0.9 },
+  ...servicePages.map((page) => ({ path: `/${page.slug}`, priority: 0.9 })),
   { path: "/gallery", priority: 0.7 },
   { path: "/privacy", priority: 0.2 },
 ];

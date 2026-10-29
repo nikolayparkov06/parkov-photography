@@ -15,6 +15,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/routing";
+import { getServicePageForCard } from "@/lib/service-pages";
 import { GalleryShowcase } from "@/components/gallery-showcase";
 import { AnimatedStat } from "@/components/animated-stat";
 import { AboutPoint } from "@/components/about-point";
@@ -349,10 +350,8 @@ export default async function HomePage({
                 serviceIcons[item.icon as keyof typeof serviceIcons] ??
                 serviceIcons.camera;
 
-              const servicePage =
-                item.key === "weddings" || /сватб|wedding/i.test(item.title)
-                  ? "/wedding-photography-sofia"
-                  : null;
+              const linkedPage = getServicePageForCard(item.key, item.title);
+              const servicePage = linkedPage ? `/${linkedPage.slug}` : null;
               const card = (
                 <div className="h-full rounded-md border border-line bg-background p-6 transition-colors hover:border-accent/50">
                   <Icon className="mb-8 text-accent" size={30} />
