@@ -15,6 +15,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/routing";
+import { getServicePageForCard } from "@/lib/service-pages";
 import { GalleryShowcase } from "@/components/gallery-showcase";
 import { AnimatedStat } from "@/components/animated-stat";
 import { AboutPoint } from "@/components/about-point";
@@ -349,15 +350,32 @@ export default async function HomePage({
                 serviceIcons[item.icon as keyof typeof serviceIcons] ??
                 serviceIcons.camera;
 
-              return (
-              <MotionItem className="h-full" key={item.id} lift>
+              const linkedPage = getServicePageForCard(item.key, item.title);
+              const servicePage = linkedPage ? `/${linkedPage.slug}` : null;
+              const card = (
                 <div className="h-full rounded-md border border-line bg-background p-6 transition-colors hover:border-accent/50">
                   <Icon className="mb-8 text-accent" size={30} />
                   <h3 className="text-xl font-bold">{item.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-muted">
                     {item.copy}
                   </p>
+                  {servicePage ? (
+                    <span className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-accent">
+                      {locale === "bg" ? "Научи повече" : "Learn more"} →
+                    </span>
+                  ) : null}
                 </div>
+              );
+
+              return (
+              <MotionItem className="h-full" key={item.id} lift>
+                {servicePage ? (
+                  <Link href={servicePage} className="block h-full">
+                    {card}
+                  </Link>
+                ) : (
+                  card
+                )}
               </MotionItem>
               );
             })}
