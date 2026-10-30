@@ -187,6 +187,11 @@ export function getContactMethods(settings: SiteSettingsValues) {
   ];
 }
 
+export const personalProfileLinks = [
+  { key: "facebook", href: "https://www.facebook.com/profile.php?id=100002334973755" },
+  { key: "instagram", href: "https://www.instagram.com/parkovnikolai/" },
+] as const;
+
 export function getSocialLinks(settings: SiteSettingsValues) {
   return [
     { key: "instagram", href: settings.instagramUrl },

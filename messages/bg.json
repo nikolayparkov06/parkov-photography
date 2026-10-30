@@ -175,6 +175,10 @@
         "instagram": "Instagram",
         "facebook": "Facebook",
         "tiktok": "TikTok"
+      },
+      "personal": {
+        "facebook": "Николай Парков във Facebook",
+        "instagram": "Николай Парков в Instagram"
       }
     }
   },
