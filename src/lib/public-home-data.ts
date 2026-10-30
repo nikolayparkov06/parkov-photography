@@ -287,8 +287,20 @@ export const getCachedPublicHomeData = unstable_cache(
       }),
     ]);
 
+    // Follow the category order set in the admin, so the "All" view opens with
+    // the categories the owner puts first. Featured items still lead.
+    const categoryRank = new Map(
+      portfolioCategories.map((category, index) => [category.key, index]),
+    );
+    const orderedPortfolioItems = [...portfolioItems].sort(
+      (a, b) =>
+        Number(b.featured) - Number(a.featured) ||
+        (categoryRank.get(a.category) ?? Number.MAX_SAFE_INTEGER) -
+          (categoryRank.get(b.category) ?? Number.MAX_SAFE_INTEGER),
+    );
+
     return {
-      portfolioItems: localizePortfolioItems(locale, portfolioItems),
+      portfolioItems: localizePortfolioItems(locale, orderedPortfolioItems),
       portfolioCategories:
         portfolioCategories.length > 0
           ? portfolioCategories.map((category) => ({
