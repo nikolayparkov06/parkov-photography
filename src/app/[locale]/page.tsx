@@ -37,6 +37,7 @@ import {
   getContactMethods,
   getMapEmbedUrl,
   getSocialLinks,
+  personalProfileLinks,
   localizedSettings,
 } from "@/lib/site-settings";
 
@@ -618,6 +619,17 @@ export default async function HomePage({
                   </a>
                 );
               })()
+            ))}
+            {personalProfileLinks.map((profile) => (
+              <a
+                key={`personal-${profile.key}`}
+                href={profile.href}
+                target="_blank"
+                rel="noreferrer"
+                className="flex min-h-11 items-center px-2 text-sm font-normal text-muted underline decoration-line underline-offset-4 hover:text-foreground"
+              >
+                {t(`footer.personal.${profile.key}`)}
+              </a>
             ))}
           </div>
         </div>
