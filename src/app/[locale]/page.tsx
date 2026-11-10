@@ -1,5 +1,6 @@
 import {
   ArrowRight,
+  Building2,
   Camera,
   CheckCircle2,
   Languages,
@@ -111,6 +112,9 @@ export default async function HomePage({
   const displayPortfolioItems = portfolioItems.filter((item) =>
     portfolioCategoryKeys.has(item.category) && item.showOnHome,
   );
+  const realEstatePhotos = portfolioItems
+    .filter((item) => /interior|real.?estate|имот|интериор/i.test(item.category))
+    .slice(0, 3);
   const visibleGalleryCategories = [
     "all",
     ...portfolioCategories
@@ -130,10 +134,11 @@ export default async function HomePage({
     ...(settings.showAbout ? ["about"] : []),
     "work",
     ...(settings.showServices ? ["services"] : []),
+    "realEstate",
     ...(settings.showPricing ? ["pricing"] : []),
     ...(settings.showContact ? ["contact"] : []),
   ].map((item) => ({
-    href: `#${item}`,
+    href: item === "realEstate" ? "#real-estate" : `#${item}`,
     label: nav(item),
   }));
 
@@ -383,6 +388,62 @@ export default async function HomePage({
           </MotionGroup>
         </div>
       </section>}
+
+      <section id="real-estate" className="px-5 py-24 md:px-8">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
+          <MotionDiv>
+            <p className="section-kicker">{t("realEstate.eyebrow")}</p>
+            <h2 className="section-title">{t("realEstate.title")}</h2>
+            <p className="mt-5 max-w-xl text-muted">{t("realEstate.copy")}</p>
+            <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+              {["interior", "exterior", "drone", "video"].map((point) => (
+                <li key={point} className="flex items-start gap-3 text-sm leading-6">
+                  <CheckCircle2 className="mt-0.5 shrink-0 text-accent" size={18} aria-hidden="true" />
+                  <span>{t(`realEstate.points.${point}`)}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-8 font-serif text-3xl">{t("realEstate.price")}</p>
+            <p className="mt-1 text-sm text-muted">{t("realEstate.priceNote")}</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="#contact"
+                className="inline-flex h-12 items-center justify-center gap-2 rounded-md bg-accent px-5 text-sm font-bold text-accent-foreground transition hover:-translate-y-0.5 hover:bg-accent-strong"
+              >
+                {t("realEstate.cta")}
+                <ArrowRight size={16} aria-hidden="true" />
+              </a>
+              <Link
+                href="/real-estate-photography-sofia"
+                className="inline-flex h-12 items-center justify-center gap-2 rounded-md border border-line px-5 text-sm font-bold transition hover:-translate-y-0.5 hover:border-accent"
+              >
+                <Building2 size={16} aria-hidden="true" />
+                {t("realEstate.more")}
+              </Link>
+            </div>
+          </MotionDiv>
+          {realEstatePhotos.length > 0 ? (
+            <div className="grid grid-cols-2 gap-3">
+              {realEstatePhotos.map((photo, index) => (
+                <div
+                  key={photo.id}
+                  className={`relative overflow-hidden rounded-md bg-surface ${
+                    index === 0 ? "col-span-2 aspect-[16/10]" : "aspect-[4/3]"
+                  }`}
+                >
+                  <Image
+                    src={photo.image}
+                    alt={photo.title || t("realEstate.alt")}
+                    fill
+                    sizes={index === 0 ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"}
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      </section>
 
       {settings.showProcess && <section id="process" className="px-5 py-24 md:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[.8fr_1.2fr]">
