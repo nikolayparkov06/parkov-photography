@@ -19,7 +19,8 @@
     "services": "Services",
     "pricing": "Packages",
     "process": "Process",
-    "contact": "Request"
+    "contact": "Request",
+    "realEstate": "Real estate"
   },
   "home": {
     "hero": {
@@ -66,23 +67,56 @@
       "eyebrow": "Services",
       "title": "Everything from personal sessions to full event coverage.",
       "items": {
-        "weddings": { "title": "Weddings", "copy": "Full-day coverage of the details, emotion, people, and celebration." },
-        "portraits": { "title": "Portraits", "copy": "Personal, artistic, and professional portraits for profiles or campaigns." },
-        "events": { "title": "Events", "copy": "Corporate events, birthdays, proms, baptisms, concerts, and private moments." },
-        "products": { "title": "Products", "copy": "Clean product images for online stores, menus, catalogs, and ads." },
-        "business": { "title": "Business", "copy": "Team photos, LinkedIn portraits, office atmosphere, and employer branding." },
-        "realEstate": { "title": "Real estate", "copy": "Interior and exterior photography for properties, hotels, and venues." },
-        "family": { "title": "Family sessions", "copy": "Relaxed photographs at home, outdoors, or in studio with a natural feel." },
-        "creative": { "title": "Creative projects", "copy": "Fashion, concepts, campaigns, retouching, and visual direction." }
+        "weddings": {
+          "title": "Weddings",
+          "copy": "Full-day coverage of the details, emotion, people, and celebration."
+        },
+        "portraits": {
+          "title": "Portraits",
+          "copy": "Personal, artistic, and professional portraits for profiles or campaigns."
+        },
+        "events": {
+          "title": "Events",
+          "copy": "Corporate events, birthdays, proms, baptisms, concerts, and private moments."
+        },
+        "products": {
+          "title": "Products",
+          "copy": "Clean product images for online stores, menus, catalogs, and ads."
+        },
+        "business": {
+          "title": "Business",
+          "copy": "Team photos, LinkedIn portraits, office atmosphere, and employer branding."
+        },
+        "realEstate": {
+          "title": "Real estate",
+          "copy": "Interior and exterior photography for properties, hotels, and venues."
+        },
+        "family": {
+          "title": "Family sessions",
+          "copy": "Relaxed photographs at home, outdoors, or in studio with a natural feel."
+        },
+        "creative": {
+          "title": "Creative projects",
+          "copy": "Fashion, concepts, campaigns, retouching, and visual direction."
+        }
       }
     },
     "process": {
       "eyebrow": "Process",
       "title": "Clear from the first message to the final gallery.",
       "steps": {
-        "brief": { "title": "Request", "copy": "The client sends date, location, shoot type, and expectations." },
-        "shoot": { "title": "Session", "copy": "A planned shoot with direction, calm pacing, and attention to detail." },
-        "delivery": { "title": "Delivery", "copy": "Selection, editing, and an online gallery ready to share." }
+        "brief": {
+          "title": "Request",
+          "copy": "The client sends date, location, shoot type, and expectations."
+        },
+        "shoot": {
+          "title": "Session",
+          "copy": "A planned shoot with direction, calm pacing, and attention to detail."
+        },
+        "delivery": {
+          "title": "Delivery",
+          "copy": "Selection, editing, and an online gallery ready to share."
+        }
       }
     },
     "packages": {
@@ -180,6 +214,22 @@
         "facebook": "Nikolay Parkov on Facebook",
         "instagram": "Nikolay Parkov on Instagram"
       }
+    },
+    "realEstate": {
+      "eyebrow": "Real estate and interiors · Sofia",
+      "title": "Property photos that sell and rent faster.",
+      "copy": "We shoot apartments, houses, offices, hotels and Airbnb listings in Sofia and across Bulgaria. Bright, straight, clean images for listings, websites and social media. We work with agents, agencies, developers and owners.",
+      "points": {
+        "interior": "Interiors: bright photos of every room",
+        "exterior": "Exteriors: the building and surroundings",
+        "drone": "Drone: plot, view and location from above",
+        "video": "Video tour for listings and Reels"
+      },
+      "price": "from €120",
+      "priceNote": "per apartment, edited photos within 3 working days",
+      "cta": "Request a quote",
+      "more": "More about property photography",
+      "alt": "Interior photography of a property in Sofia"
     }
   },
   "gallery": {
@@ -222,7 +272,7 @@
     "locationError": "Enter a city or location with at least 2 characters.",
     "messageHelp": "Minimum 10 characters.",
     "messageCount": "{count}/10",
-    "messageError": "Tell us a little more — the message must contain at least 10 characters.",
+    "messageError": "Tell us a little more. The message must contain at least 10 characters.",
     "emailError": "Enter a valid email address.",
     "phoneError": "Enter a valid phone number.",
     "contactChoiceRequired": "Choose how you would like to be contacted.",
@@ -252,12 +302,30 @@
     "logout": "Log out",
     "loggingOut": "Logging out...",
     "cards": {
-      "photos": { "title": "Photos and portfolio", "copy": "Upload, reorder, categorize, and feature images on the homepage." },
-      "categories": { "title": "Gallery categories", "copy": "Create, order, show, and hide the category structure used by the public gallery." },
-      "services": { "title": "Services and packages", "copy": "Edit services, descriptions, pricing, and section visibility." },
-      "requests": { "title": "Client requests", "copy": "Review inquiries, statuses, preferred contact method, and notes." },
-      "bookings": { "title": "Bookings and calendar", "copy": "Schedule accepted work, venues, times, notes, and completion status." },
-      "settings": { "title": "Settings", "copy": "Contacts, social links, language, SEO, and homepage imagery." }
+      "photos": {
+        "title": "Photos and portfolio",
+        "copy": "Upload, reorder, categorize, and feature images on the homepage."
+      },
+      "categories": {
+        "title": "Gallery categories",
+        "copy": "Create, order, show, and hide the category structure used by the public gallery."
+      },
+      "services": {
+        "title": "Services and packages",
+        "copy": "Edit services, descriptions, pricing, and section visibility."
+      },
+      "requests": {
+        "title": "Client requests",
+        "copy": "Review inquiries, statuses, preferred contact method, and notes."
+      },
+      "bookings": {
+        "title": "Bookings and calendar",
+        "copy": "Schedule accepted work, venues, times, notes, and completion status."
+      },
+      "settings": {
+        "title": "Settings",
+        "copy": "Contacts, social links, language, SEO, and homepage imagery."
+      }
     }
   },
   "adminContent": {

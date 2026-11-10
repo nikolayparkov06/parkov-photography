@@ -76,12 +76,12 @@ export const servicePages: ServicePage[] = [
       included: [
         { icon: "camera", title: "Сватбена фотография", copy: "Подготовка, церемония, портрети на двойката, гости и парти. Селектирани и обработени кадри." },
         { icon: "video", title: "Сватбено видео", copy: "Кинематографичен трейлър и филм от деня с музика, slow motion и истинска емоция." },
-        { icon: "drone", title: "Дрон кадри", copy: "Мястото, церемонията и двойката отвисоко — мащаб, който земната камера не дава." },
+        { icon: "drone", title: "Дрон кадри", copy: "Мястото, церемонията и двойката отвисоко: мащаб, който земната камера не дава." },
         { icon: "images", title: "Онлайн галерия", copy: "Снимки, готови за споделяне, които изпращате на близките с един линк." },
       ],
       faqs: [
         travelFaqBg,
-        { q: "Може ли само снимки или само видео?", a: "Да. Изберете само фотография, само видео или двете с дрон — офертата се прави според деня ви." },
+        { q: "Може ли само снимки или само видео?", a: "Да. Изберете само фотография, само видео или двете с дрон: офертата се прави според деня ви." },
         deliveryFaqBg,
         { q: "Как се запазва дата?", a: "Датата се запазва с капаро. Точните условия се уточняват предварително." },
         { q: "Получаваме ли RAW файлове?", a: "Получавате селектирани и обработени финални изображения. RAW файловете не са част от стандартната доставка." },
@@ -128,18 +128,18 @@ export const servicePages: ServicePage[] = [
       eyebrow: "Кръщенета · София",
       title: "Фотограф за кръщене в София",
       intro:
-        "На кръщенето вие сте заети с детето, гостите и свещеника. Ние улавяме всичко останало — малките ръце, водата, свещите и погледите на близките.",
+        "На кръщенето вие сте заети с детето, гостите и свещеника. Ние улавяме всичко останало: малките ръце, водата, свещите и погледите на близките.",
       serviceName: "Фотография и видео за кръщене",
       navLabel: "Кръщене",
       included: [
         { icon: "camera", title: "Церемонията в църквата", copy: "Дискретно заснемане, без светкавица в най-важните мигове и без да пречим на свещеника." },
-        { icon: "users", title: "Семейни портрети", copy: "Снимки с кръстниците, бабите и дядовците — кадрите, които после всички искат." },
+        { icon: "users", title: "Семейни портрети", copy: "Снимки с кръстниците, бабите и дядовците: кадрите, които после всички искат." },
         { icon: "gift", title: "Празникът след това", copy: "Тортата, гостите и атмосферата в ресторанта или у дома." },
         { icon: "video", title: "Видео по желание", copy: "Кратък филм от деня, който да пазите за детето, когато порасне." },
       ],
       faqs: [
         { q: "Снимате ли в църквата?", a: "Да. Съобразяваме се с правилата на храма и снимаме дискретно, без да прекъсваме ритуала." },
-        { q: "Може ли само църквата, без празника?", a: "Да. Заснемането се съобразява с вашата програма — само църква или целия ден." },
+        { q: "Може ли само църквата, без празника?", a: "Да. Заснемането се съобразява с вашата програма: само църква или целия ден." },
         deliveryFaqBg,
         travelFaqBg,
       ],
@@ -158,13 +158,13 @@ export const servicePages: ServicePage[] = [
       navLabel: "Baptism",
       included: [
         { icon: "camera", title: "The church ceremony", copy: "Discreet coverage without flash at key moments and without disturbing the priest." },
-        { icon: "users", title: "Family portraits", copy: "Photos with godparents and grandparents — the images everyone asks for later." },
+        { icon: "users", title: "Family portraits", copy: "Photos with godparents and grandparents: the images everyone asks for later." },
         { icon: "gift", title: "The celebration", copy: "The cake, the guests and the atmosphere at the restaurant or at home." },
         { icon: "video", title: "Optional video", copy: "A short film of the day to keep for your child when they grow up." },
       ],
       faqs: [
         { q: "Do you shoot inside the church?", a: "Yes. We follow the church's rules and shoot discreetly without interrupting the ritual." },
-        { q: "Can we book only the church?", a: "Yes. Coverage follows your schedule — church only or the whole day." },
+        { q: "Can we book only the church?", a: "Yes. Coverage follows your schedule: church only or the whole day." },
         deliveryFaqEn,
         travelFaqEn,
       ],
@@ -184,7 +184,7 @@ export const servicePages: ServicePage[] = [
       eyebrow: "Рождени дни и юбилеи · София",
       title: "Фотограф за рожден ден и юбилей в София",
       intro:
-        "Детски рожден ден, 50-ти юбилей или голямо семейно празненство — снимаме празника естествено, без да го превръщаме във фотосесия.",
+        "Детски рожден ден, 50-ти юбилей или голямо семейно празненство: снимаме празника естествено, без да го превръщаме във фотосесия.",
       serviceName: "Фотография за рождени дни и юбилеи",
       navLabel: "Рождени дни",
       included: [
@@ -194,7 +194,7 @@ export const servicePages: ServicePage[] = [
         { icon: "video", title: "Видео по желание", copy: "Кратък клип от празника за споделяне или за спомен." },
       ],
       faqs: [
-        { q: "Снимате ли детски рождени дни?", a: "Да — у дома, в ресторант или в детски център. Работим спокойно и не плашим децата." },
+        { q: "Снимате ли детски рождени дни?", a: "Да, у дома, в ресторант или в детски център. Работим спокойно и не плашим децата." },
         { q: "Колко часа е заснемането?", a: "Според програмата на празника. Обикновено покриваме най-важните 2–4 часа, а точното време се уточнява в офертата." },
         deliveryFaqBg,
         travelFaqBg,
@@ -209,7 +209,7 @@ export const servicePages: ServicePage[] = [
       eyebrow: "Birthdays and jubilees · Sofia",
       title: "Birthday and jubilee photographer in Sofia",
       intro:
-        "A kid's birthday, a 50th jubilee or a big family celebration — we photograph the party naturally without turning it into a photo shoot.",
+        "A kid's birthday, a 50th jubilee or a big family celebration: we photograph the party naturally without turning it into a photo shoot.",
       serviceName: "Birthday and jubilee photography",
       navLabel: "Birthdays",
       included: [
@@ -219,7 +219,7 @@ export const servicePages: ServicePage[] = [
         { icon: "video", title: "Optional video", copy: "A short clip of the party to share or keep." },
       ],
       faqs: [
-        { q: "Do you photograph kids' birthdays?", a: "Yes — at home, in a restaurant or a play centre. We work calmly and don't scare the kids." },
+        { q: "Do you photograph kids' birthdays?", a: "Yes, at home, in a restaurant or a play centre. We work calmly and don't scare the kids." },
         { q: "How long is the coverage?", a: "It follows the party schedule. Usually the key 2–4 hours; the exact time is set in the quote." },
         deliveryFaqEn,
         travelFaqEn,
@@ -236,21 +236,21 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Фотограф за абитуриентски бал в София | Parkov Visuals",
       seoDescription:
-        "Абитуриентски фотосесии и заснемане на бал в София — портрети, приятели, семейство и видео. Записване за сезон 2027. Отговор до 24 ч.",
+        "Абитуриентски фотосесии и заснемане на бал в София: портрети, приятели, семейство и видео. Записване за сезон 2027. Отговор до 24 ч.",
       eyebrow: "Абитуриентски балове · София",
       title: "Фотограф за абитуриентски бал в София",
       intro:
-        "Абитуриентският бал е веднъж. Правим портрети, снимки с приятели и семейството и видео от вечерта — за абитуриенти, класове и цели училища.",
+        "Абитуриентският бал е веднъж. Правим портрети, снимки с приятели и семейството и видео от вечерта: за абитуриенти, класове и цели училища.",
       serviceName: "Фотография за абитуриентски бал",
       navLabel: "Абитуриентски балове",
       included: [
         { icon: "camera", title: "Абитуриентска фотосесия", copy: "Портрети на открито или на избрана локация преди бала." },
         { icon: "users", title: "Приятели и семейство", copy: "Снимки с родителите, класа и най-близките приятели." },
         { icon: "video", title: "Видео от вечерта", copy: "Кратък клип от тръгването, ресторанта и партито." },
-        { icon: "drone", title: "Дрон кадри", copy: "Целият клас или колоната от коли отвисоко — кадър, който никой друг няма." },
+        { icon: "drone", title: "Дрон кадри", copy: "Целият клас или колоната от коли отвисоко: кадър, който никой друг няма." },
       ],
       faqs: [
-        { q: "Кога да запазим дата?", a: "Колкото по-рано, толкова по-добре — датите през май и юни се запълват първи." },
+        { q: "Кога да запазим дата?", a: "Колкото по-рано, толкова по-добре: датите през май и юни се запълват първи." },
         { q: "Снимате ли цели класове?", a: "Да. За класове и групи правим обща оферта според броя абитуриенти." },
         deliveryFaqBg,
         travelFaqBg,
@@ -261,21 +261,21 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Prom Photographer in Sofia | Parkov Visuals",
       seoDescription:
-        "Prom photo sessions and prom night coverage in Sofia — portraits, friends, family and video. Booking for 2027. Replies within 24 hours.",
+        "Prom photo sessions and prom night coverage in Sofia: portraits, friends, family and video. Booking for 2027. Replies within 24 hours.",
       eyebrow: "Proms · Sofia",
       title: "Prom photographer in Sofia",
       intro:
-        "Prom happens once. We shoot portraits, photos with friends and family and video of the night — for single graduates, classes and whole schools.",
+        "Prom happens once. We shoot portraits, photos with friends and family and video of the night: for single graduates, classes and whole schools.",
       serviceName: "Prom photography",
       navLabel: "Proms",
       included: [
         { icon: "camera", title: "Prom photo session", copy: "Portraits outdoors or at a chosen location before the prom." },
         { icon: "users", title: "Friends and family", copy: "Photos with parents, the class and closest friends." },
         { icon: "video", title: "Video of the night", copy: "A short clip of the departure, the restaurant and the party." },
-        { icon: "drone", title: "Drone footage", copy: "The whole class or the car convoy from above — a shot nobody else has." },
+        { icon: "drone", title: "Drone footage", copy: "The whole class or the car convoy from above: a shot nobody else has." },
       ],
       faqs: [
-        { q: "When should we book?", a: "The earlier the better — May and June dates fill up first." },
+        { q: "When should we book?", a: "The earlier the better: May and June dates fill up first." },
         { q: "Do you shoot whole classes?", a: "Yes. For classes and groups we make one quote based on the number of graduates." },
         deliveryFaqEn,
         travelFaqEn,
@@ -308,7 +308,7 @@ export const servicePages: ServicePage[] = [
       faqs: [
         { q: "Издавате ли фактура?", a: "Да. Работим с фирми и предоставяме документи за плащането." },
         { q: "Може ли бързо предаване за PR?", a: "Да. Подбрани снимки за прессъобщение или социални мрежи могат да се уговорят за същия или следващия ден." },
-        { q: "Снимате ли и извън София?", a: "Да — за конференции и тиймбилдинги в цяла България." },
+        { q: "Снимате ли и извън София?", a: "Да, за конференции и тиймбилдинги в цяла България." },
         deliveryFaqBg,
       ],
       ctaTitle: "Коледни партита: оставащи дати",
@@ -333,7 +333,7 @@ export const servicePages: ServicePage[] = [
       faqs: [
         { q: "Do you issue invoices?", a: "Yes. We work with companies and provide payment documents." },
         { q: "Can we get photos fast for PR?", a: "Yes. A selection for a press release or social media can be arranged for the same or next day." },
-        { q: "Do you cover events outside Sofia?", a: "Yes — conferences and team buildings across Bulgaria." },
+        { q: "Do you cover events outside Sofia?", a: "Yes, conferences and team buildings across Bulgaria." },
         deliveryFaqEn,
       ],
       ctaTitle: "Christmas parties: remaining dates",
@@ -348,7 +348,7 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Фотограф за концерти и фестивали в София | Parkov Visuals",
       seoDescription:
-        "Фотография и видео за концерти, фестивали и публични събития в София — сцена, публика и атмосфера. Отговор до 24 ч.",
+        "Фотография и видео за концерти, фестивали и публични събития в София: сцена, публика и атмосфера. Отговор до 24 ч.",
       eyebrow: "Концерти и фестивали · София",
       title: "Фотограф за концерти и фестивали в София",
       intro:
@@ -357,7 +357,7 @@ export const servicePages: ServicePage[] = [
       navLabel: "Концерти",
       included: [
         { icon: "music", title: "Сцената", copy: "Изпълнителите в най-силните моменти, при всякакво сценично осветление." },
-        { icon: "users", title: "Публиката", copy: "Енергията на хората — кадрите, които продават следващото събитие." },
+        { icon: "users", title: "Публиката", copy: "Енергията на хората: кадрите, които продават следващото събитие." },
         { icon: "video", title: "Видео и клипове", copy: "Кратки клипове за промоция и социални мрежи." },
         { icon: "drone", title: "Дрон", copy: "Мащабът на фестивала отвисоко, където е разрешено." },
       ],
@@ -373,7 +373,7 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Concert & Festival Photographer in Sofia | Parkov Visuals",
       seoDescription:
-        "Photo and video for concerts, festivals and public events in Sofia — stage, crowd and atmosphere. Replies within 24 hours.",
+        "Photo and video for concerts, festivals and public events in Sofia: stage, crowd and atmosphere. Replies within 24 hours.",
       eyebrow: "Concerts and festivals · Sofia",
       title: "Concert and festival photographer in Sofia",
       intro:
@@ -382,7 +382,7 @@ export const servicePages: ServicePage[] = [
       navLabel: "Concerts",
       included: [
         { icon: "music", title: "The stage", copy: "Artists at their strongest moments, under any stage lighting." },
-        { icon: "users", title: "The crowd", copy: "The energy of the audience — the shots that sell the next event." },
+        { icon: "users", title: "The crowd", copy: "The energy of the audience: the shots that sell the next event." },
         { icon: "video", title: "Video and clips", copy: "Short clips for promotion and social media." },
         { icon: "drone", title: "Drone", copy: "The scale of the festival from above, where permitted." },
       ],
@@ -408,7 +408,7 @@ export const servicePages: ServicePage[] = [
       eyebrow: "Събития · София",
       title: "Фотограф за събития в София",
       intro:
-        "От кръщене до фирмена конференция — снимки и видео за всеки повод, със същото внимание към хората и атмосферата.",
+        "От кръщене до фирмена конференция: снимки и видео за всеки повод, със същото внимание към хората и атмосферата.",
       serviceName: "Фотография и видео за събития",
       navLabel: "Събития",
       included: [
@@ -428,7 +428,7 @@ export const servicePages: ServicePage[] = [
       eyebrow: "Events · Sofia",
       title: "Event photographer in Sofia",
       intro:
-        "From a baptism to a company conference — photo and video for every occasion, with the same attention to people and atmosphere.",
+        "From a baptism to a company conference: photo and video for every occasion, with the same attention to people and atmosphere.",
       serviceName: "Event photography and video",
       navLabel: "Events",
       included: [
@@ -450,7 +450,7 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Семейна и детска фотосесия в София | Parkov Visuals",
       seoDescription:
-        "Семейни, детски и фотосесии за бременни в София — у дома, навън или в студио. Коледни семейни сесии. Отговор до 24 ч.",
+        "Семейни, детски и фотосесии за бременни в София: у дома, навън или в студио. Коледни семейни сесии. Отговор до 24 ч.",
       eyebrow: "Семейни сесии · София",
       title: "Семейна и детска фотосесия в София",
       intro:
@@ -458,13 +458,13 @@ export const servicePages: ServicePage[] = [
       serviceName: "Семейна и детска фотография",
       navLabel: "Семейни сесии",
       included: [
-        { icon: "users", title: "Семейни сесии", copy: "Цялото семейство заедно — без сковани пози и изкуствени усмивки." },
-        { icon: "sparkles", title: "Детски фотосесии", copy: "Игра, смях и търпение — снимаме в темпото на детето." },
+        { icon: "users", title: "Семейни сесии", copy: "Цялото семейство заедно: без сковани пози и изкуствени усмивки." },
+        { icon: "sparkles", title: "Детски фотосесии", copy: "Игра, смях и търпение: снимаме в темпото на детето." },
         { icon: "camera", title: "Фотосесия за бременни", copy: "Нежни портрети на открито или в студио." },
         { icon: "gift", title: "Коледни сесии", copy: "Семейни кадри навреме за картички и подаръци." },
       ],
       faqs: [
-        { q: "Къде се провежда сесията?", a: "У дома, в парк в София или в студио — избираме заедно според сезона и идеята." },
+        { q: "Къде се провежда сесията?", a: "У дома, в парк в София или в студио: избираме заедно според сезона и идеята." },
         { q: "Може ли с домашния любимец?", a: "Разбира се. Снимаме и фотосесии само на домашни любимци." },
         deliveryFaqBg,
         travelFaqBg,
@@ -475,7 +475,7 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Family & Kids Photo Session in Sofia | Parkov Visuals",
       seoDescription:
-        "Family, kids and maternity photo sessions in Sofia — at home, outdoors or in studio. Christmas family sessions. Replies within 24 hours.",
+        "Family, kids and maternity photo sessions in Sofia: at home, outdoors or in studio. Christmas family sessions. Replies within 24 hours.",
       eyebrow: "Family sessions · Sofia",
       title: "Family and kids photo session in Sofia",
       intro:
@@ -483,13 +483,13 @@ export const servicePages: ServicePage[] = [
       serviceName: "Family and kids photography",
       navLabel: "Family sessions",
       included: [
-        { icon: "users", title: "Family sessions", copy: "The whole family together — no stiff poses or forced smiles." },
-        { icon: "sparkles", title: "Kids sessions", copy: "Play, laughter and patience — we work at the child's pace." },
+        { icon: "users", title: "Family sessions", copy: "The whole family together: no stiff poses or forced smiles." },
+        { icon: "sparkles", title: "Kids sessions", copy: "Play, laughter and patience: we work at the child's pace." },
         { icon: "camera", title: "Maternity sessions", copy: "Gentle portraits outdoors or in studio." },
         { icon: "gift", title: "Christmas sessions", copy: "Family photos in time for cards and gifts." },
       ],
       faqs: [
-        { q: "Where does the session take place?", a: "At home, in a Sofia park or in studio — we choose together based on season and idea." },
+        { q: "Where does the session take place?", a: "At home, in a Sofia park or in studio: we choose together based on season and idea." },
         { q: "Can our pet join?", a: "Of course. We also shoot pet-only sessions." },
         deliveryFaqEn,
         travelFaqEn,
@@ -506,7 +506,7 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Портретна фотосесия в София | Parkov Visuals",
       seoDescription:
-        "Лични, артистични и професионални портретни фотосесии в София — на открито или в студио, със спокойни насоки. Отговор до 24 ч.",
+        "Лични, артистични и професионални портретни фотосесии в София: на открито или в студио, със спокойни насоки. Отговор до 24 ч.",
       eyebrow: "Портрети · София",
       title: "Портретна фотосесия в София",
       intro:
@@ -520,8 +520,8 @@ export const servicePages: ServicePage[] = [
         { icon: "images", title: "Обработени кадри", copy: "Внимателна ретуш, която запазва естествения вид." },
       ],
       faqs: [
-        { q: "Не съм фотогеничен — ще стане ли?", a: "Да. Повечето хора казват същото. Насоките по време на сесията са точно за това." },
-        { q: "Къде се снима?", a: "В студио или на открито в София — според идеята и светлината." },
+        { q: "Не съм фотогеничен. Ще стане ли?", a: "Да. Повечето хора казват същото. Насоките по време на сесията са точно за това." },
+        { q: "Къде се снима?", a: "В студио или на открито в София: според идеята и светлината." },
         deliveryFaqBg,
       ],
       ctaTitle: "Запазете портретна сесия",
@@ -530,7 +530,7 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Portrait Photo Session in Sofia | Parkov Visuals",
       seoDescription:
-        "Personal, artistic and professional portrait sessions in Sofia — outdoors or in studio, with calm direction. Replies within 24 hours.",
+        "Personal, artistic and professional portrait sessions in Sofia: outdoors or in studio, with calm direction. Replies within 24 hours.",
       eyebrow: "Portraits · Sofia",
       title: "Portrait photo session in Sofia",
       intro:
@@ -544,7 +544,7 @@ export const servicePages: ServicePage[] = [
         { icon: "images", title: "Edited images", copy: "Careful retouching that keeps a natural look." },
       ],
       faqs: [
-        { q: "I'm not photogenic — will it work?", a: "Yes. Most people say that. Direction during the session is exactly for this." },
+        { q: "I'm not photogenic. Will it work?", a: "Yes. Most people say that. Direction during the session is exactly for this." },
         { q: "Where do we shoot?", a: "In studio or outdoors in Sofia, depending on the idea and the light." },
         deliveryFaqEn,
       ],
@@ -560,22 +560,22 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Бизнес портрети и LinkedIn снимки в София | Parkov Visuals",
       seoDescription:
-        "Бизнес портрети, LinkedIn снимки и екипни фотосесии в София — в офиса ви или на локация. Отговор до 24 ч.",
+        "Бизнес портрети, LinkedIn снимки и екипни фотосесии в София: в офиса ви или на локация. Отговор до 24 ч.",
       eyebrow: "Бизнес портрети · София",
       title: "Бизнес портрети и LinkedIn снимки в София",
       intro:
-        "Профилната ви снимка се вижда, преди да сте казали дума. Правим бизнес портрети за хора и цели екипи — в офиса ви или навън в София.",
+        "Профилната ви снимка се вижда, преди да сте казали дума. Правим бизнес портрети за хора и цели екипи: в офиса ви или навън в София.",
       serviceName: "Бизнес портретна фотография",
       navLabel: "Бизнес портрети",
       included: [
         { icon: "briefcase", title: "LinkedIn портрети", copy: "Професионални, но живи портрети за профил и сайт." },
-        { icon: "users", title: "Екипни снимки", copy: "Цялият екип в единен стил — за сайта и „За нас“." },
+        { icon: "users", title: "Екипни снимки", copy: "Цялият екип в единен стил: за сайта и „За нас“." },
         { icon: "building", title: "Офис атмосфера", copy: "Работното пространство и хората в него за employer branding." },
         { icon: "camera", title: "Мобилно студио", copy: "Идваме в офиса ви, без да спираме работния ден за дълго." },
       ],
       faqs: [
         { q: "Идвате ли в офиса?", a: "Да. Носим осветление и правим сесиите на място, за да не губи екипът време." },
-        { q: "Може ли еднакъв стил за целия екип?", a: "Да — същият фон, светлина и обработка за всички, включително за нови колеги по-късно." },
+        { q: "Може ли еднакъв стил за целия екип?", a: "Да, същият фон, светлина и обработка за всички, включително за нови колеги по-късно." },
         { q: "Издавате ли фактура?", a: "Да. Работим с фирми и предоставяме документи за плащането." },
         deliveryFaqBg,
       ],
@@ -585,11 +585,11 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Business Portraits & LinkedIn Photos in Sofia | Parkov Visuals",
       seoDescription:
-        "Business portraits, LinkedIn headshots and team photo sessions in Sofia — at your office or on location. Replies within 24 hours.",
+        "Business portraits, LinkedIn headshots and team photo sessions in Sofia: at your office or on location. Replies within 24 hours.",
       eyebrow: "Business portraits · Sofia",
       title: "Business portraits and LinkedIn photos in Sofia",
       intro:
-        "Your profile photo is seen before you say a word. We shoot business portraits for individuals and whole teams — at your office or outdoors in Sofia.",
+        "Your profile photo is seen before you say a word. We shoot business portraits for individuals and whole teams: at your office or outdoors in Sofia.",
       serviceName: "Business portrait photography",
       navLabel: "Business portraits",
       included: [
@@ -600,7 +600,7 @@ export const servicePages: ServicePage[] = [
       ],
       faqs: [
         { q: "Do you come to the office?", a: "Yes. We bring lighting and shoot on site so the team loses little time." },
-        { q: "Can the whole team have one style?", a: "Yes — same background, light and editing for everyone, including new hires later." },
+        { q: "Can the whole team have one style?", a: "Yes, same background, light and editing for everyone, including new hires later." },
         { q: "Do you issue invoices?", a: "Yes. We work with companies and provide payment documents." },
         deliveryFaqEn,
       ],
@@ -616,17 +616,17 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Продуктова фотография в София | Parkov Visuals",
       seoDescription:
-        "Продуктова фотография за онлайн магазини, менюта и реклама в София — бял фон, лайфстайл и детайли. Отговор до 24 ч.",
+        "Продуктова фотография за онлайн магазини, менюта и реклама в София: бял фон, лайфстайл и детайли. Отговор до 24 ч.",
       eyebrow: "Продуктова фотография · София",
       title: "Продуктова фотография в София",
       intro:
-        "Чисти продуктови кадри, които продават — за онлайн магазини, ресторанти, менюта и рекламни материали.",
+        "Чисти продуктови кадри, които продават: за онлайн магазини, ресторанти, менюта и рекламни материали.",
       serviceName: "Продуктова фотография",
       navLabel: "Продуктова фотография",
       included: [
         { icon: "package", title: "Бял фон", copy: "Еднакви, чисти снимки за онлайн магазин и маркетплейси." },
         { icon: "sparkles", title: "Лайфстайл кадри", copy: "Продуктът в употреба и в подходяща обстановка." },
-        { icon: "camera", title: "Храна и напитки", copy: "Менюта, ресторанти и доставки — кадри, които отварят апетит." },
+        { icon: "camera", title: "Храна и напитки", copy: "Менюта, ресторанти и доставки: кадри, които отварят апетит." },
         { icon: "video", title: "Кратки продуктови видеа", copy: "Клипове за Instagram, TikTok и реклами." },
       ],
       faqs: [
@@ -640,17 +640,17 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Product Photography in Sofia | Parkov Visuals",
       seoDescription:
-        "Product photography for online shops, menus and advertising in Sofia — white background, lifestyle and details. Replies within 24 hours.",
+        "Product photography for online shops, menus and advertising in Sofia: white background, lifestyle and details. Replies within 24 hours.",
       eyebrow: "Product photography · Sofia",
       title: "Product photography in Sofia",
       intro:
-        "Clean product photos that sell — for online shops, restaurants, menus and advertising materials.",
+        "Clean product photos that sell: for online shops, restaurants, menus and advertising materials.",
       serviceName: "Product photography",
       navLabel: "Product photography",
       included: [
         { icon: "package", title: "White background", copy: "Consistent, clean photos for online shops and marketplaces." },
         { icon: "sparkles", title: "Lifestyle shots", copy: "The product in use and in the right setting." },
-        { icon: "camera", title: "Food and drinks", copy: "Menus, restaurants and delivery — photos that make people hungry." },
+        { icon: "camera", title: "Food and drinks", copy: "Menus, restaurants and delivery: photos that make people hungry." },
         { icon: "video", title: "Short product videos", copy: "Clips for Instagram, TikTok and ads." },
       ],
       faqs: [
@@ -670,18 +670,18 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Рекламно видео и съдържание за социални мрежи в София | Parkov Visuals",
       seoDescription:
-        "Рекламни видеа, Reels и съдържание за социални мрежи в София — заснемане, монтаж и дрон. Месечно съдържание за бизнеси. Отговор до 24 ч.",
+        "Рекламни видеа, Reels и съдържание за социални мрежи в София: заснемане, монтаж и дрон. Месечно съдържание за бизнеси. Отговор до 24 ч.",
       eyebrow: "Реклама и съдържание · София",
       title: "Рекламно видео и съдържание за социални мрежи",
       intro:
-        "Видео и снимки, които спират скролването — за ресторанти, хотели, магазини и марки. Заснемаме, монтираме и предаваме готово за публикуване.",
+        "Видео и снимки, които спират скролването: за ресторанти, хотели, магазини и марки. Заснемаме, монтираме и предаваме готово за публикуване.",
       serviceName: "Рекламно видео и съдържание",
       navLabel: "Рекламно видео",
       included: [
         { icon: "video", title: "Рекламни клипове", copy: "Кратки видеа за реклами във Facebook, Instagram и YouTube." },
         { icon: "sparkles", title: "Reels и TikTok", copy: "Вертикално съдържание в ритъма на социалните мрежи." },
         { icon: "camera", title: "Рекламна фотография", copy: "Кампании, мода и визуална концепция за марката." },
-        { icon: "drone", title: "Дрон", copy: "Хотел, ресторант или обект отвисоко — силно начало на всяко видео." },
+        { icon: "drone", title: "Дрон", copy: "Хотел, ресторант или обект отвисоко: силно начало на всяко видео." },
       ],
       faqs: [
         { q: "Правите ли месечно съдържание?", a: "Да. За бизнеси планираме редовни заснемания и предаваме съдържание за целия месец." },
@@ -694,18 +694,18 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Advertising Video & Social Media Content in Sofia | Parkov Visuals",
       seoDescription:
-        "Advertising videos, Reels and social media content in Sofia — filming, editing and drone. Monthly content for businesses. Replies within 24 hours.",
+        "Advertising videos, Reels and social media content in Sofia: filming, editing and drone. Monthly content for businesses. Replies within 24 hours.",
       eyebrow: "Advertising and content · Sofia",
       title: "Advertising video and social media content",
       intro:
-        "Video and photos that stop the scroll — for restaurants, hotels, shops and brands. We film, edit and deliver ready to publish.",
+        "Video and photos that stop the scroll: for restaurants, hotels, shops and brands. We film, edit and deliver ready to publish.",
       serviceName: "Advertising video and content",
       navLabel: "Advertising video",
       included: [
         { icon: "video", title: "Ad clips", copy: "Short videos for Facebook, Instagram and YouTube ads." },
         { icon: "sparkles", title: "Reels and TikTok", copy: "Vertical content in the rhythm of social media." },
         { icon: "camera", title: "Advertising photography", copy: "Campaigns, fashion and visual concept for the brand." },
-        { icon: "drone", title: "Drone", copy: "A hotel, restaurant or site from above — a strong start to any video." },
+        { icon: "drone", title: "Drone", copy: "A hotel, restaurant or site from above: a strong start to any video." },
       ],
       faqs: [
         { q: "Do you produce monthly content?", a: "Yes. For businesses we plan regular shoots and deliver content for the whole month." },
@@ -724,11 +724,11 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Дрон фотография и видео в София | Parkov Visuals",
       seoDescription:
-        "Дрон заснемане в София и България — сватби, имоти, хотели, събития и реклама. Снимки и видео отвисоко. Отговор до 24 ч.",
+        "Дрон заснемане в София и България: сватби, имоти, хотели, събития и реклама. Снимки и видео отвисоко. Отговор до 24 ч.",
       eyebrow: "Дрон заснемане · София и България",
       title: "Дрон фотография и видео в София",
       intro:
-        "Кадри отвисоко, които показват мащаба — на сватба, имот, хотел, събитие или рекламна кампания.",
+        "Кадри отвисоко, които показват мащаба: на сватба, имот, хотел, събитие или рекламна кампания.",
       serviceName: "Дрон фотография и видео",
       navLabel: "Дрон",
       included: [
@@ -748,11 +748,11 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Drone Photography & Video in Sofia | Parkov Visuals",
       seoDescription:
-        "Drone filming in Sofia and Bulgaria — weddings, real estate, hotels, events and advertising. Aerial photo and video. Replies within 24 hours.",
+        "Drone filming in Sofia and Bulgaria: weddings, real estate, hotels, events and advertising. Aerial photo and video. Replies within 24 hours.",
       eyebrow: "Drone filming · Sofia and Bulgaria",
       title: "Drone photography and video in Sofia",
       intro:
-        "Aerial shots that show scale — at a wedding, property, hotel, event or ad campaign.",
+        "Aerial shots that show scale: at a wedding, property, hotel, event or ad campaign.",
       serviceName: "Drone photography and video",
       navLabel: "Drone",
       included: [
@@ -778,11 +778,11 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Ирисова фотография в София | Снимка на окото | Parkov Visuals",
       seoDescription:
-        "Ирисова фотография в София — макро снимка на окото ви като уникална картина. Подарък за двойки и семейства. Отговор до 24 ч.",
+        "Ирисова фотография в София: макро снимка на окото ви като уникална картина. Подарък за двойки и семейства. Отговор до 24 ч.",
       eyebrow: "Ирисова фотография · София",
       title: "Ирисова фотография в София",
       intro:
-        "Вашето око, снимано отблизо, прилича на планета. Няма две еднакви — затова ирисовата снимка е най-личният подарък.",
+        "Вашето око, снимано отблизо, прилича на планета. Няма две еднакви: затова ирисовата снимка е най-личният подарък.",
       serviceName: "Ирисова фотография",
       navLabel: "Ирисова фотография",
       included: [
@@ -792,8 +792,8 @@ export const servicePages: ServicePage[] = [
         { icon: "gift", title: "Готово за печат", copy: "Файл в голяма резолюция, готов за отпечатване по ваш избор." },
       ],
       faqs: [
-        { q: "Колко продължава заснемането?", a: "Кратко — няколко минути на човек. Не е неприятно за окото." },
-        { q: "Подходящо ли е за подарък?", a: "Да. Особено за годишнини, Свети Валентин и Коледа — може и като ваучер." },
+        { q: "Колко продължава заснемането?", a: "Кратко: няколко минути на човек. Не е неприятно за окото." },
+        { q: "Подходящо ли е за подарък?", a: "Да. Особено за годишнини, Свети Валентин и Коледа: може и като ваучер." },
         deliveryFaqBg,
       ],
       ctaTitle: "Подарък, който не се повтаря",
@@ -802,11 +802,11 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Iris Photography in Sofia | Eye Photo Art | Parkov Visuals",
       seoDescription:
-        "Iris photography in Sofia — a macro photo of your eye turned into unique art. A gift for couples and families. Replies within 24 hours.",
+        "Iris photography in Sofia: a macro photo of your eye turned into unique art. A gift for couples and families. Replies within 24 hours.",
       eyebrow: "Iris photography · Sofia",
       title: "Iris photography in Sofia",
       intro:
-        "Your eye, photographed up close, looks like a planet. No two are alike — which makes an iris photo the most personal gift.",
+        "Your eye, photographed up close, looks like a planet. No two are alike: which makes an iris photo the most personal gift.",
       serviceName: "Iris photography",
       navLabel: "Iris photography",
       included: [
@@ -816,8 +816,8 @@ export const servicePages: ServicePage[] = [
         { icon: "gift", title: "Print-ready", copy: "A high-resolution file ready to print however you like." },
       ],
       faqs: [
-        { q: "How long does it take?", a: "Short — a few minutes per person. It is not unpleasant for the eye." },
-        { q: "Is it a good gift?", a: "Yes. Especially for anniversaries, Valentine's Day and Christmas — also as a voucher." },
+        { q: "How long does it take?", a: "Short: a few minutes per person. It is not unpleasant for the eye." },
+        { q: "Is it a good gift?", a: "Yes. Especially for anniversaries, Valentine's Day and Christmas: also as a voucher." },
         deliveryFaqEn,
       ],
       ctaTitle: "A gift that is never repeated",
@@ -832,11 +832,11 @@ export const servicePages: ServicePage[] = [
     bg: {
       seoTitle: "Фотография на имоти и интериори в София | Parkov Visuals",
       seoDescription:
-        "Фотография и видео на имоти, хотели и интериори в София — за брокери, хотели и Airbnb. С дрон по желание. Отговор до 24 ч.",
+        "Снимки на имоти в София от 120 €: апартаменти, къщи, офиси, хотели и Airbnb. Интериор, екстериор, дрон и видео обиколка за обяви. Отговор до 24 ч.",
       eyebrow: "Имоти и пространства · София",
       title: "Фотография на имоти и интериори в София",
       intro:
-        "Добрите снимки продават и отдават имота по-бързо. Снимаме апартаменти, къщи, хотели и офиси — отвътре, отвън и отвисоко.",
+        "Добрите снимки продават и отдават имота по-бързо. Снимаме апартаменти, къщи, офиси, хотели и имоти за Airbnb в София и цяла България: отвътре, отвън и отвисоко. Заснемането на апартамент започва от 120 €.",
       serviceName: "Фотография на имоти",
       navLabel: "Имоти",
       included: [
@@ -846,7 +846,10 @@ export const servicePages: ServicePage[] = [
         { icon: "video", title: "Видео обиколка", copy: "Кратко видео на имота за обяви и социални мрежи." },
       ],
       faqs: [
-        { q: "Работите ли с брокери и агенции?", a: "Да. Предлагаме редовно заснемане и единен стил за всички обяви." },
+        { q: "Колко струва заснемането на имот?", a: "Апартамент започва от 120 €. Къщи, офиси и хотели оценяваме според квадратурата и броя помещения. Дрон и видео обиколка се добавят по желание." },
+        { q: "Работите ли с брокери и агенции?", a: "Да. Предлагаме редовно заснемане, отстъпка при повече обекти и единен стил за всички обяви." },
+        { q: "Снимате ли имоти за Airbnb и Booking?", a: "Да. Снимаме така, че обявата да изглежда светла и уютна, с кадри на всяко помещение, детайли и гледката." },
+        { q: "Как да подготвя имота за снимките?", a: "Подредете и почистете, махнете лични вещи от плотовете, отворете пердетата и запалете осветлението. Преди снимките ви изпращаме кратък списък." },
         { q: "Издавате ли фактура?", a: "Да. Работим с фирми и предоставяме документи за плащането." },
         deliveryFaqBg,
       ],
@@ -856,11 +859,11 @@ export const servicePages: ServicePage[] = [
     en: {
       seoTitle: "Real Estate & Interior Photography in Sofia | Parkov Visuals",
       seoDescription:
-        "Photo and video of properties, hotels and interiors in Sofia — for agents, hotels and Airbnb. Optional drone. Replies within 24 hours.",
+        "Real estate photography in Sofia from €120: apartments, houses, offices, hotels and Airbnb. Interiors, exteriors, drone and video tours for listings. Replies within 24 hours.",
       eyebrow: "Real estate and spaces · Sofia",
       title: "Real estate and interior photography in Sofia",
       intro:
-        "Good photos sell and rent a property faster. We shoot apartments, houses, hotels and offices — inside, outside and from above.",
+        "Good photos sell and rent a property faster. We shoot apartments, houses, offices, hotels and Airbnb listings in Sofia and across Bulgaria: inside, outside and from above. An apartment shoot starts at €120.",
       serviceName: "Real estate photography",
       navLabel: "Real estate",
       included: [
@@ -870,7 +873,10 @@ export const servicePages: ServicePage[] = [
         { icon: "video", title: "Video tour", copy: "A short property video for listings and social media." },
       ],
       faqs: [
-        { q: "Do you work with agents and agencies?", a: "Yes. We offer regular shoots and one consistent style for all listings." },
+        { q: "How much does a property shoot cost?", a: "An apartment starts at €120. Houses, offices and hotels are quoted by size and number of rooms. Drone and video tours are optional extras." },
+        { q: "Do you work with agents and agencies?", a: "Yes. We offer regular shoots, a discount for multiple properties and one consistent style for all listings." },
+        { q: "Do you shoot Airbnb and Booking listings?", a: "Yes. We make the listing look bright and welcoming, with every room, details and the view." },
+        { q: "How do I prepare the property?", a: "Tidy and clean, clear personal items from surfaces, open the curtains and turn on the lights. We send a short checklist before the shoot." },
         { q: "Do you issue invoices?", a: "Yes. We work with companies and provide payment documents." },
         deliveryFaqEn,
       ],
